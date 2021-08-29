@@ -5,54 +5,123 @@ engine: ejs
 current: index
 ---
 
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
+<div class="container-fluid">
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <nav class="navbar navbar-expand-lg navbar-light  d-none d-md-block ">
+    <div class="container-fluid ">
+      <div class="navbar-nav mx-auto flex-md-nowrap flex-row flex-wrap">
+        <a class="nav-link px-3 " aria-current="page" href="#">音樂</a>
+        <a class="nav-link px-3" href="#">戲劇</a>
+        <a class="nav-link px-3 active-dis" aria-current="page" href="index3.html">設計</a>
+        <a class="nav-link px-3 " href="#" tabindex="-1" aria-disabled="true">藝術</a>
+        <a class="nav-link px-3" href="#">設計</a>
+        <a class="nav-link px-3" href="#">美食</a>
+        <a class="nav-link px-3" href="#">電影</a>
+        <a class="nav-link px-3" href="#">親子</a>
+        <a class="nav-link px-3" href="#">期間限定</a>
       </div>
-      <div class="modal-body">
-        ...
+    </div>
+  </nav>
+  <div class="d-none d-md-block">
+    <div class="banner-color d-flex align-items-center justify-content-start ">
+      <div class="text-light w-30 me-5  ms-5">
+        <p class="fs-1 d-inline fw-bold">2020 台味設計展</p>
+        <p class="inline-block lh-lg">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="d-flex align-items-end"  data-aos="fade-right" >
+        <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" class="img-cove-group me-4" alt="">
+        <p class="text-light mb-0 fs-5 fw-bold "> 01 <br> JUN <br>| <br>31 <br>OCT</p>
       </div>
     </div>
   </div>
+
+  <div class="banner-color h-100 d-md-none " data-aos="fade-right" >
+    <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" class="w-80 m-5"  alt="">
+    <div class="text-light px-4 pb-5">
+      <p class=" mb-2 fs-5 fw-bold "> 01 JUN | 31 OCT</p>
+      <p class="fs-1  d-inline fw-bold">2020 台味設計展</p>
+      <p class="inline-block lh-lg text-light">
+        一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
+      </p>
+    </div>
+  </div>
+  <div class="d-none d-md-block">
+    <div class="banner-color-white d-flex align-items-center justify-content-end ">
+      <div class="nav_text w-30 me-5  ms-5">
+        <p class="fs-1 d-inline fw-bold">No.22 線上設計展</p>
+        <p class="inline-block lh-lg">這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。</p>
+      </div>
+      <div class="d-flex align-items-end me-5"  data-aos="fade-left">
+        <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" class="img-cove-group me-4" alt="">
+        <p class="nav_text  mb-0 fs-5 fw-bold "> 01 <br> JUN <br>| <br>31 <br>OCT</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="banner-color-white h-100 d-md-none "  data-aos="fade-left">
+    <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" class="w-80 m-5" alt="">
+    <div class="nav_text px-4 pb-5">
+      <p class=" mb-2 fs-5 fw-bold"> 01 JUN | 31 OCT</p>
+      <p class="fs-1  d-inline fw-bold">No.22 線上設計展</p>
+      <p class="inline-block lh-lg nav_text">
+      這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。
+      </p>
+    </div>
+  </div>
+  <div class="d-none d-md-block">
+    <div class="banner-color d-flex align-items-center justify-content-start ">
+      <div class="text-light w-30 me-5  ms-5">
+        <p class="fs-1 d-inline fw-bold">高雄設計節</p>
+        <p class="inline-block lh-lg">設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
+      </div>
+      <div class="d-flex align-items-end"  data-aos="fade-left">
+        <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" class="img-cove-group me-4" alt="">
+        <p class="text-light mb-0 fs-5 fw-bold "> 01 <br> JUN <br>| <br>31 <br>OCT</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="banner-color h-100 d-md-none " data-aos="fade-left">
+    <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" class="w-80 m-5" alt="">
+    <div class="text-light px-4 pb-5">
+      <p class=" mb-2 fs-5 fw-bold "> 01 JUN | 31 OCT</p>
+      <p class="fs-1  d-inline fw-bold">高雄設計節</p>
+      <p class="inline-block lh-lg text-light">
+      設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？
+      </p>
+    </div>
+  </div>
+  <h2 class="pt-5">猜你也喜歡...</h2>
+  <div class="row ">
+    <div class="col d-flex flex-md-row justify-content-md-between flex-column " data-aos="fade-left">
+      <div class="card border-0 me-3 ">
+        <img src="./assets/images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg" class="card-img-top img-cove " alt="...">
+        <div class=" px-0">
+          <h5>No.22 線上設計展</h5>
+          <p class=" fs-5 ">$350
+          </p>
+        </div>
+      </div>
+      <div class="card   border-0   me-3 ">
+        <img src="./assets/images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg" class="card-img-top img-cove " alt="...">
+        <div class=" px-0">
+          <h5>No.22 線上設計展</h5>
+          <p class=" fs-5 ">$350
+          </p>
+        </div>
+      </div>
+      <div class=" card  border-0  ">
+        <img src="./assets/images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg" class="card-img-top  img-cove "
+          alt="...">
+        <div class="px-0 ">
+          <h5>No.22 線上設計展</h5>
+          <p class=" fs-5 ">$350
+          </p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+
 </div>
