@@ -1,0 +1,126 @@
+.carousel-caption-text {
+  position: absolute;
+  top: 27%;
+  right: 15%;
+  left: 15%;
+  color: #fff;
+}
+
+.date-w {
+  width: 53%;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.img-size-1 {
+  width: 1.5rem;
+  margin-right: 3%;
+}
+
+.bg-card {
+  background-color: #190014;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.banner-bg {
+  background-image: url(../images/img_banner_1.jpg);
+  height: 480px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.live-bg {
+  background-image: url(../images/people2.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.exhibition-bg1 {
+  background-image: url(../images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg);
+}
+
+.exhibition-bg2 {
+  background-image: url(../images/michel-catalisano--a0D9LpcKV8-unsplash.jpg);
+}
+
+.exhibition-bg3 {
+  background-image: url(../images/moralis-tsai-8xsktFRw28I-unsplash.jpg);
+}
+
+.exhibition {
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer-bg {
+  background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer-card {
+  width: 30rem;
+  color: #fff;
+  padding-top: 12%;
+  padding-left: 5%;
+}
+
+.footer-conter {
+  padding: 28px 85px;
+}
+
+.footer-link {
+  color: #707070;
+}
+
+.card-body-lift {
+  width: 100rem;
+}
+
+.active-dis {
+  border-bottom: 1px solid #e31277;
+}
+
+.banner-color {
+  background-color: #630834;
+  width: 100%;
+  height: 480px;
+}
+
+.banner-color-white {
+  background-color: #fff;
+  width: 100%;
+  height: 480px;
+}
+
+@media (max-width: 991.98px) {
+  .date-w {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .date-w {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption-text {
+    top: 41%;
+    right: 5%;
+    left: 5%;
+  }
+  .footer-card {
+    width: 100%;
+    padding-top: 50%;
+    padding-right: 5%;
+  }
+  .footer-conter {
+    padding: 16px 15px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
